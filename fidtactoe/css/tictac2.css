@@ -1,0 +1,87 @@
+.cell{
+	border:3px solid steelblue;
+	height: 100px;
+	width: 100px;
+	margin:0;
+	padding:0;
+	text-align: center;
+	font-size: 4em;
+	cursor:pointer;
+}
+table{
+	margin:0 auto;
+	background: rgb(49, 168, 158);
+	color:white;
+	border-collapse: collapse;
+}
+h1{
+	text-align: center;
+	color:darkorange;
+	font-size: 3em;
+	letter-spacing: .2em;
+}
+
+.btn{
+	margin: 0 auto;
+	text-align: center;
+	
+	color:white;
+	width: 100px;
+	margin-top:2em;
+}
+.btn button{
+	background:green;
+	font:white;
+	padding:1em;
+	color:white;
+
+}
+
+.endgame{
+	display: none;
+	width: 200px;
+	top:120px;
+	background: purple;
+	position:absolute;
+	left:50%;
+	margin-left:-100px;
+	padding-top:50px;
+	padding-bottom:50px;
+	text-align: center;
+	border-radius: 5px;
+	color:white;
+}
+
+@media (max-width: 1200px){
+	.cell{
+	height:400px;
+	width: 300px;
+	font-size: 8em;
+
+	}
+
+	button{
+		width: 250px;
+		height:200px;
+		font-size: 3em;
+		border-radius: 30px;
+
+	}
+	.endgame{
+	display: none;
+	width: 800px;
+	top:100px;
+	background: purple;
+	position:absolute;
+	left:20%;
+	margin-left:-100px;
+	padding-top:50px;
+	padding-bottom:50px;
+	text-align: center;
+	border-radius: 5px;
+	color:white;
+	}
+	.text{
+		font-size: 2em;
+	}
+}
